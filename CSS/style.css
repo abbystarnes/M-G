@@ -4,8 +4,8 @@
 }
 
 body {
-	background-color: #14141e;
-	color: white;
+	background-color: RGB(9,2,19);
+	color: #B2B2B2;
 	position: relative;
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -14,11 +14,46 @@ body {
 	
 }
 
+
+
+figure img {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+figure {
+	width: 50%;
+	margin: 5% 25%;
+	padding: 0;
+	display: inline-block;
+}
+
+figure h3 {
+	/*position:absolute;*/
+	/*bottom: 0px;*/
+	/*width: 100%;*/
+	font-size: .9em;
+	text-align: center;
+	background-color: rgb(0, 88, 159);
+	background-color: rgb(0, 88, 159, 0.2);
+	padding: 5px 3px;
+	margin: 0px;
+	/*margin-top: 20px;*/
+}
+
+.AttorneyGrid h2 {
+	display: block;
+	text-align: center;
+}
+
+
 .columnB {
 	clear:left;
 }
 .practiceAreas li a {
-	color: white;
+	color: #B2B2B2;
 	
 
 }
@@ -192,10 +227,29 @@ p {
 .main {
 	margin: 0 auto;
 	width: 90%;
+}
+
+/*.outerWrapper  {
+	margin: 0 auto;
+	width: 80%;
+}*/
+
+.innerWrapper {
+	width: 80%;
+	margin: 0 auto;
+}
 
 }
 .intro {
 	display: block;
+}
+header {
+	position: relative;
+	padding-top: 80px;
+}
+
+footer {
+	position: relative;
 }
 
 .practiceAreas {
@@ -274,7 +328,7 @@ footer {
 footer p{
 	font-size: .75em;
 	text-align: right;
-	margin-right:20px;
+	/*margin-right:20px;*/
 	margin-bottom: 40px;
 	margin-top: 40px;
 	clear:left;
@@ -282,7 +336,14 @@ footer p{
 	clear: right;
 
 }
-
+@media screen and (min-width: 500px) {
+	figure {
+	width: 46%;
+	margin: 4% 2%;
+	padding: 0;
+	display: inline-block;
+}
+}
 @media screen and (min-width: 660px) {
 	body {
 		
@@ -298,9 +359,27 @@ footer p{
 	.columnB {
 		clear: none;
 	}
-}
+	.logo {
+		background-image: url("../images/logomedium.png");
+	background-image: linear-gradient(transparent,transparent), url("../images/logo.svg");
+		height: 153px;
+		width: 396px;
+	}
 
+
+}
+@media screen and (min-width: 730px) {
+	figure {
+	width: 30%;
+	margin: 3% 1.5%;
+	padding: 0;
+	display: inline-block;
+}
 @media screen and (min-width: 875px) {
+
+	.margin {
+		padding-top: 90px;
+	}
 	
 	.mainNav li{
 	display: inline-block;
@@ -314,8 +393,27 @@ footer p{
 		/*height: 90px;*/
 	}
 
+		.logo {
+		background-image: url("../images/logolarge.png");
+	background-image: linear-gradient(transparent,transparent), url("../images/logo.svg");
+		height: 182px;
+		width: 471px;
+	}
+		.groupPhoto {
+		margin-top: 10px;
+	}
+
+
 }
 
+
+@media screen and (min-width: 1024px) {
+	body{
+
+	margin: 0 auto;
+	max-width: 1100px;
+}
+}
 
 
 
