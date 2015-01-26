@@ -1,0 +1,323 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #14141e;
+	color: white;
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-family: Avenir, Arial, sans-serif;
+	font-size: 1.2em;
+	
+}
+
+.columnB {
+	clear:left;
+}
+.practiceAreas li a {
+	color: white;
+	
+
+}
+
+.mainNav a{
+	color: #14141e;
+	height: 100%;
+	width: 100%;
+}
+
+.hyperLink {
+	font-family: 'Times New Roman', serif;
+	font-weight: bold;
+}
+
+.logIn {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	text-align: left;
+}
+
+.contact {
+	position: absolute;
+	right: 20px;
+	top: 40px;
+	text-align: right;
+}
+
+.logo {
+	background-image: url("../images/logolarge.png");
+	background-image: linear-gradient(transparent,transparent), url("../images/logo.svg");
+    margin:0 auto;
+	height: 128px;
+	display:block;
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-indent: -9999px;
+	text-align: center;
+	padding:0;
+	width: 323px;
+	margin-top: 100px;
+	
+}
+
+button {
+	background-color: #1B75BB;
+	color:#12141e;
+	border: none;
+	padding: 10px;
+	font-family: 'Times New Roman', serif !important;
+	display:block;
+	float:left;
+	clear:both;
+
+	
+}
+
+.practiceAreas {
+	display:block;
+	clear: both;
+}
+
+button:hover {
+	background-color:#58A6DB;
+	color: #14141e;
+}
+
+
+
+h2 a:hover {
+	color:#58A6DB;
+}
+
+a {
+	color: #1B75BB;
+	text-decoration: none;
+}
+
+.main button {
+	display:block;
+}
+
+.mainNav {
+	
+}
+
+.mainNav ul {
+	padding-left: 0px;
+	margin-bottom:3px;
+}
+
+.mainNav a {
+	height: 60px;
+	width: 100%;
+	display:inline-block;
+}
+
+.logIn button {
+	background-color:transparent;
+	color:#1B75BB;
+	float: left;
+	margin-top: 5px;
+
+}
+
+
+.featuredAttorney a:hover {
+	color:  #58A6DB;
+}
+
+.contact button {
+	background-color:transparent;
+	color:#1B75BB;
+	float: left;
+	margin-bottom: 5px;
+}
+
+.contact button:hover {
+	background-color: #58A6DB;
+	color: #14141e;
+}
+
+.main button {
+	margin:15px 0px 60px 0px;
+	display: block;
+}
+
+.logIn button:hover {
+	background-color: #58A6DB;
+	color: #14141e;
+}
+
+.mainNav a:hover {
+	background-color:#58A6DB;
+}
+
+.mainNav li {
+	background-color: #1B75BB;
+	height: 60px;
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+	font-family: 'Times New Roman', serif;
+	font-size: 1.4em;
+	border: 1px solid #12141e;
+	line-height: 60px;
+	color:#12141e;
+	font-weight: bold;
+}
+.groupPhoto {
+	width: 100%;
+}
+
+h1 {
+	font-family: "Times New Roman", serif;
+	font-size: 1.6em !important;
+	font-weight: normal;
+
+}
+
+h2 {
+	font-family: "Times New Roman", serif;
+	font-size: 1.4em !important;
+}
+
+p {
+	line-height: 1.5;
+}
+
+.main {
+	margin: 0 auto;
+	width: 90%;
+
+}
+.intro {
+	display: block;
+}
+
+.practiceAreas {
+	margin-top: 100px;
+	margin-bottom: 40px;
+	display: block;
+}
+
+.practiceAreas ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	list-style-position: inside;
+
+	
+}
+
+.practiceAreas li{
+	padding-left: 60px;
+	background-image: url(../Images/appbar.heart.outline.svg);
+	background-repeat: no-repeat;
+background-position: 0em -.7em;
+line-height: 1.5em;
+height: 3em;
+
+
+}
+
+.columnA li:nth-child(2) {
+	background-image: url(../Images/appbar.store.svg);
+}
+
+.columnA li:nth-child(3) {
+	background-image: url(../Images/appbar.truck.svg);
+}
+
+
+
+.columnB li:first-child {
+	background-image: url(../Images/appbar.medical.pill.svg);
+}
+
+.columnB li:last-child{
+	background-image: url(../Images/appbar.man.suitcase.svg);
+}
+
+
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.columnA {
+	float: left;
+	margin-right: 15px;
+
+}
+
+.columnB {
+	float:left;
+}
+
+.featuredAttorney {
+	float:left;
+}
+
+footer {
+	margin-top: 20px;
+	display:block;
+	clear: both;
+}
+footer p{
+	font-size: .75em;
+	text-align: right;
+	margin-right:20px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	clear:left;
+	float:right;
+	clear: right;
+
+}
+
+@media screen and (min-width: 660px) {
+	body {
+		
+	}
+	
+	.practiceAreas ul{
+		width: 48%;
+
+	}
+	ul .columnB {
+		margin-right:1%;
+	}
+	.columnB {
+		clear: none;
+	}
+}
+
+@media screen and (min-width: 875px) {
+	
+	.mainNav li{
+	display: inline-block;
+	width: 20%;
+	float: left;
+	font-size: 1em;
+	/*height: 90px;*/
+
+}
+	.mainNav a {
+		/*height: 90px;*/
+	}
+
+}
+
+
+
+
+
+
