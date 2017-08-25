@@ -1,4 +1,4 @@
-![Murphy and Grantland, P.A. logo](https://raw.githubusercontent.com/abbystarnes/TIY-2015-redesign-law-firm/master/Images/logo.svg)
+![Murphy and Grantland, P.A. logo](Images/logo.svg)
 
 # Murphy and Grantland, P.A.
 > The Iron Yard
