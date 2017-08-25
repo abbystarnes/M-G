@@ -1,4 +1,4 @@
-![Logo of the project](https://raw.githubusercontent.com/jehna/readme-best-practices/master/sample-logo.png)
+![Logo of the project](https://raw.githubusercontent.com/abbystarnes/TIY-2015-redesign-law-firm/Images/logo.svg)
 
 # Murphy and Grantland, P.A.
 > The Iron Yard
