@@ -1,8 +1,6 @@
 ![Murphy and Grantland, P.A. logo](Images/logosmall.png)
 
 # Murphy and Grantland, P.A.
-> The Iron Yard
-> 2015
 > Redesign and Responsive build of local law firm Murphy and Grantland, P.A.
 
 https://abbystarnes.github.io/TIY-2015-redesign-law-firm/
