@@ -1,7 +1,7 @@
 ![Murphy and Grantland, P.A. logo](Images/logosmall.png)
 
 # Murphy and Grantland, P.A.
-> Redesign and Responsive build of local law firm Murphy and Grantland, P.A.
+> redesign and responsive build of local law firm website
 
 https://abbystarnes.github.io/TIY-2015-redesign-law-firm/
 
