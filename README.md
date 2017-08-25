@@ -5,7 +5,7 @@
 
 https://abbystarnes.github.io/TIY-2015-redesign-law-firm/
 
-This is a redesign and responsive build of a local law firm's website. I completed the redesign, including sketching, wireframing, UI, and development, over the course of a week. This was an assignment for The Iron Yard 3-month User Interface / Web Design bootcamp course.
+I completed this redesign, including sketching, wireframing, UI, and development, over the course of a week. This was an assignment for The Iron Yard 3-month User Interface / Web Design bootcamp course.
 
 ## Installing / Getting started
 
