@@ -1,4 +1,4 @@
-![Murphy and Grantland, P.A. logo](Images/logo.svg)
+![Murphy and Grantland, P.A. logo](Images/logosmall.png)
 
 # Murphy and Grantland, P.A.
 > The Iron Yard
